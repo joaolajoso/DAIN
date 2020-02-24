@@ -3,7 +3,7 @@
 echo "Need pytorch>=1.0.0"
 source activate pytorch1.0.0
 
-cd MinDepthFlowProjection
+cd /content/DAIN/my_package/MinDepthFlowProjection
 rm -rf build *.egg-info dist
 python setup.py install
 cd ..
